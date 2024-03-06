@@ -9,7 +9,7 @@ public class Cryto {
         return output.toString();
     }
 
-    static private String xorAlgo(String data, String key) {
+    static protected String xorAlgo(String data, String key) {
 
         String acc = "";
 
